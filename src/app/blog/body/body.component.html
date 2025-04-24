@@ -1,0 +1,51 @@
+<div class="parent">
+    <div class="fils-gauche">
+        <div class="conteneur"  *ngFor="let item of articles">
+            <app-body-item-article [article]="item"></app-body-item-article>
+        </div>
+    </div>
+    <div class="other">
+        <h3>Tasty recipes</h3>
+        <div class="recipe">
+            <div class="recipe-img"></div>
+            <div class="recipe-desc">
+                <h5>Chicken Meatball</h5>
+                <h6>with Creamy Chees...</h6>
+                <p>By Andreas Paula</p>
+            </div>
+        </div>
+        <div class="recipe">
+            <div class="recipe-img2"></div>
+            <div class="recipe-desc">
+                <h5>Chicken Meatball</h5>
+                <h6>Creamy chicken and...</h6>
+                <p>By Andreas Paula</p>
+            </div>
+        </div>
+        <div class="recipe">
+            <div class="recipe-img3"></div>
+            <div class="recipe-desc">
+                <h5>Chicken Meatball</h5>
+                <h6>Pot Chicken and Rice</h6>
+                <p>By Andreas Paula</p>
+            </div>
+        </div>
+        <div class="top-menu">
+
+        </div>
+    </div>
+</div>
+<div class="paginations">
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg">
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="#">></a></li>
+      </ul>
+    </nav>
+</div>

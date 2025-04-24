@@ -1,0 +1,13 @@
+<div class="conteneur">
+    <div>
+        <h2>Categories</h2>
+    </div>
+    <div>
+        <p>View All Categories</p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-6 g-4">
+    <div *ngFor="let categorie of categories">
+        <app-category-item [category]="categorie"></app-category-item> 
+    </div>
+</div>

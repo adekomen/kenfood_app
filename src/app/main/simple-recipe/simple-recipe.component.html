@@ -1,0 +1,11 @@
+<div class="conteneur">
+    <h2>Simple and tasty recipes</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nam repellendus illo.
+    </p>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let recipe of recipes">
+        <app-simple-recipe-item [simplerecipe]="recipe"></app-simple-recipe-item> 
+    </div>
+</div>
